@@ -1,0 +1,111 @@
+//"out":true
+/******reset********/
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+body{
+  font-family:Arial,"STHeiti", Helvetica, sans-serif;
+  font-size:14px;
+  color:#444!important;
+
+  width:100%;
+  overflow-x: hidden;
+  -webkit-overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+h1, h2, h3, h4, h5, h6{
+  font-size:100%;
+  font-weight:normal
+}
+q:before, q:after{
+  content:''
+}
+abbr, acronym{
+  border:0
+}
+a{
+     text-decoration:none;
+     color: #444;
+}
+html{-webkit-text-size-adjust:none;width:100%;height:100% } /*????iphone??safari????????????*/
+// input[type="text"], input[type="button"], input[type="submit"], input[type="search"]{
+//   -webkit-appearance:none;
+//   border-radius:0;
+// }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
+/*************正文内容*************/
+#app {
+  font-family:Arial,"STHeiti", Helvetica, sans-serif;
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+  -webkit-overflow-x: hidden;
+  color: #444;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(244, 244, 244, 1);
+}
+
+.container{
+  border-radius: 5px;
+    height: 100%;
+    .el-header{
+      border-radius: 5px 5px 0 0;
+    }
+  .el-header, .el-footer {
+      background-color: #B3C0D1;
+      color: #333;
+      line-height: 60px;
+      font-size: 18px;
+      font-weight: 650;
+    }
+    .el-header a{
+      float:right;
+      font-size: 14px;
+      font-weight: normal;
+      color:#108EE9;
+      margin-left: 10px;
+    }
+    .el-header a:hover{
+      text-decoration: underline;
+    }
+    .el-main {
+      background-color: #fff;
+      color: #333;
+      border-radius: 0 0 5px 5px;
+      // min-height: 100vh;
+        height: 100%;
+    }
+    .mustTip{
+      font-size: 18px;
+      color: #FF0000;
+      margin-left: 10px;
+    }
+    .errorTip{
+      margin: 10px 0;
+    }
+}
