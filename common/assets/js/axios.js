@@ -6,7 +6,7 @@ axios.defaults.withCredentials = true
 let CancelToken = axios.CancelToken
 // 拦截request,设置全局请求为ajax请求
 axios.interceptors.request.use(function (config) {
-  config.headers['prelogid'] = window.xesWeb_eventLog.getCookie_log('prelogid') || ''
+  config.headers['prelogid'] = window.manogyaWeb_eventLog.getCookie_log('prelogid') || ''
   config.headers['X-Requested-With'] = 'XMLHttpRequest'
   config.timeout = 7000 // 超时设置
   let cancelGroupName

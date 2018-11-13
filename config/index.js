@@ -11,7 +11,7 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/' + process.argv[2] + '/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist/' + process.argv[2]),
     assetsSubDirectory: 'static',
-    // assetsPublicPath: 'http://res' + CDN[Math.floor(Math.random() * 6)] + '.xesimg.com/x5home/' + process.argv[2] + '/',
+    // assetsPublicPath: 'http://res' + CDN[Math.floor(Math.random() * 6)] + '.manogyaimg.com/x5home/' + process.argv[2] + '/',
     assetsPublicPath: '/',
     productionSourceMap: false,
     // Gzip off by default as many popular static hosts such as
@@ -35,7 +35,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       // '**': {
-      //   target: 'http://i.xueersi.com/',
+      //   target: 'http://i.mangoya.com/',
       //   changeOrigin: true,
       //   filter: function (pathname, req) {
       //     let proxyApi = /^((\/study\/)|(\/WrongTestsNew\/)|(\/libarts\/)|(\/science\/)|(\/MyCourses?\/)|(\/GoldShop\/)|(\/PaperSetsNew\/)|(\/CourseTests\/))/
@@ -46,7 +46,7 @@ module.exports = {
       //   }
       // }
       // '/study': {
-      //   target: 'http://i.xueersi.com/study/',
+      //   target: 'http://i.mangoya.com/study/',
       //   changeOrigin: true,
       //   pathRewrite: {
       //     '^/study': '/'

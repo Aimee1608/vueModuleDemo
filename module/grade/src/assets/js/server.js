@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const portUrl = 'http://bizadmin.xesv5.com/'
+const portUrl = 'http://bizadmin.manogyav5.com/'
 
 // 获取定级列表 grading/getlist
 const getlist = (provinceId, gradeId, subjectId, status, name, id, page, callback) => {

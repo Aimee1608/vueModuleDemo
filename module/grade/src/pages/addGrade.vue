@@ -221,7 +221,7 @@ export default {
                 confirmButtonText: '确定',
                 showClose: false,
                 callback: action => {
-                   window.parent.location.href = 'http://admin.xesv5.com'
+                   window.parent.location.href = 'http://admin.manogyav5.com'
                 }
               })
             } else {
@@ -380,7 +380,7 @@ export default {
                  confirmButtonText: '确定',
                  showClose: false,
                  callback: action => {
-                    window.parent.location.href = 'http://admin.xesv5.com'
+                    window.parent.location.href = 'http://admin.manogyav5.com'
                  }
                })
              } else {
@@ -427,7 +427,7 @@ export default {
                 confirmButtonText: '确定',
                 showClose: false,
                 callback: action => {
-                   window.parent.location.href = 'http://admin.xesv5.com'
+                   window.parent.location.href = 'http://admin.manogyav5.com'
                 }
               })
             } else {

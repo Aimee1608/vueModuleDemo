@@ -3,7 +3,7 @@ Mock.setup({
   // timeout: 6000
 })
 // 当前直播接口
-export const liveRemind = Mock.mock(/\/\/i.xueersi.com\/MyCourses\/ajaxStudyRemindNew[\w\W]?/, {
+export const liveRemind = Mock.mock(/\/\/i.mangoya.com\/MyCourses\/ajaxStudyRemindNew[\w\W]?/, {
   'stat': 1,
   'data': {
     'rows': 15,
@@ -39,7 +39,7 @@ export const liveRemind = Mock.mock(/\/\/i.xueersi.com\/MyCourses\/ajaxStudyRemi
           {
               'id': '1649',
               'name': 'bill01',
-              'imgUrl': 'http: //r04.xesimg.com/web/2015/12/21/14506863061774.png'
+              'imgUrl': 'http: //r04.manogyaimg.com/web/2015/12/21/14506863061774.png'
           }
       ],
       'teacherNum': 1,
@@ -47,7 +47,7 @@ export const liveRemind = Mock.mock(/\/\/i.xueersi.com\/MyCourses\/ajaxStudyRemi
       'courseName': '我问你是不是想不想继续上不上这个课了',
       'subjectIds': '1',
       'startTime': '17: 00',
-      'clickUrl': 'https://live.xueersi.com/live/index/108957/7d0bedde76fe1c7f726442f0a55fda58'
+      'clickUrl': 'https://live.mangoya.com/live/index/108957/7d0bedde76fe1c7f726442f0a55fda58'
     }
   }
 })

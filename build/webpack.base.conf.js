@@ -7,10 +7,6 @@ const enterdir = process.argv.splice(2)[0]
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
-const CDN = [12, 13, 14, 16, 17, 18]
-
-// console.log(path.join(__dirname, '../module', enterdir, 'src'))
-console.log('//res' + CDN[Math.floor(Math.random() * 6)] + '.xesimg.com/admin/' + enterdir + config.build.assetsPublicPath)
 module.exports = {
   entry: {
     app: './module/' + enterdir + '/src/main.js'
@@ -20,8 +16,8 @@ module.exports = {
     path: config.build.assetsRoot,
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
-      ?'http://res' + CDN[Math.floor(Math.random() * 6)] + '.xesimg.com/admin/' + enterdir + config.build.assetsPublicPath
-      //设置绝对路径 ? 'http://res' + CDN[Math.floor(Math.random() * 6)] + '.xesimg.com/' + enterdir + config.build.assetsPublicPath
+      ? config.build.assetsPublicPath
+      //设置绝对路径 ? 'http://res' + CDN[Math.floor(Math.random() * 6)] + '.manogyaimg.com/' + enterdir + config.build.assetsPublicPath
       : config.dev.assetsPublicPaths
   },
   resolve: {
